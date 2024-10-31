@@ -13,7 +13,7 @@ struct node
 	struct node *next;
 };
 struct node *temp,*newnode,*head,*nextnode;
-void main()
+int  main()
 {
      head=0;
      int choicee=1;
@@ -57,7 +57,7 @@ void main()
 			choice=choice+0;
 		}
  }
- 
+ return 0;
 	}
 
 
